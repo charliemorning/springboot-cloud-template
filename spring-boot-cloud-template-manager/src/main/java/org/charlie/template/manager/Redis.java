@@ -10,6 +10,5 @@ public class Redis {
         jedis.set("foo", "bar");
         String value = jedis.get("foo");
         System.out.println(value);
-        jedis.
     }
 }
